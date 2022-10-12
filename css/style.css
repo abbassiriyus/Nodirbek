@@ -14,6 +14,7 @@
     justify-content: space-between;
     background-color: #FFF;
 }
+
 .card {
     min-width: 300px;
     width: 25%;
@@ -23,6 +24,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .card2 {
     min-width: 300px;
     width: 35%;
@@ -32,6 +34,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .card3 {
     height: 70px;
     /* border: 2px solid red; */
@@ -54,11 +57,6 @@
 .card2 li {
     transition: .2s;
 }
-
-.card2 li:hover {
-
-}
-
 .card2 ul li a {
     text-decoration: none;
     color: black;
@@ -194,7 +192,7 @@
         align-items: center;
     }
     .card3 {
-        height: 50px;
+        height: 55px;
         /* border: 2px solid red; */
         display: flex;
         justify-content: space-around;
@@ -231,7 +229,7 @@
         align-items: center;
     }
     .card3 {
-        height: 50px;
+        height: 60px;
         /* border: 2px solid red; */
         font-size: 1.5vw;
         display: flex;
@@ -242,7 +240,7 @@
         height: 100%;
         width: 60px;
         border-left: 1px solid rgba(128, 128, 128, 0.367);
-        padding-top: 16px;
+        padding-top: 20px;
         padding-left: 20px;
         transition: .3s;
     }
@@ -286,9 +284,9 @@
     }
     .card3 {
         width: 25%;
-        height: 50px;
+        height: 55px;
         /* border: 2px solid red; */
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -341,4 +339,153 @@
         padding-left: 16px;
         transition: .3s;
     }
+}
+.sayt {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid black; */
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sayt img {
+    margin-left: 105px;
+    margin-top: 490px;
+    position: absolute;
+}
+
+.sayt_p {
+    font-size: 2.5vw;
+    width: auto;
+    background-color: #FFF;
+    margin-left: 135px;
+    margin-top: 400px;
+    position: absolute;
+}
+
+.sayt_p2 {
+    font-size: 2.5vw;
+    width: auto;
+    background-color: #FFF;
+    margin-left: 135px;
+    margin-top: 440px;
+    position: absolute;
+}
+
+.sayt_p3 {
+    font-size: 2.5vw;
+    width: auto;
+    background-color: #FFF;
+    margin-left: 135px;
+    margin-top: 480px;
+    position: absolute;
+}
+
+.sayt_img {
+    color: #8EE901;
+}
+@media (max-width: 1100px){
+    .sayt_p {
+        font-size: 3.2vw;
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 400px;
+        position: absolute;
+    }
+    
+    .sayt_p2 {
+        font-size: 3.2vw;
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 440px;
+        position: absolute;
+    }
+    
+    .sayt_p3 {
+        font-size: 3.2vw; 
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 480px;
+        position: absolute;
+    }
+    .sayt img {
+        width: 60px;
+        margin-left: 105px;
+        margin-top: 490px;
+        position: absolute;
+    }
+}
+@media (max-width: 950px){
+    .sayt {
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid black; */
+    }
+    .sayt_p {
+        font-size: 3vw;
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 335px;
+        position: absolute;
+    }
+    
+    .sayt_p2 {
+        font-size: 3vw;
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 370px;
+        position: absolute;
+    }
+    
+    .sayt_p3 {
+        font-size: 3vw; 
+        width: auto;
+        background-color: #FFF;
+        margin-left: 135px;
+        margin-top: 405px;
+        position: absolute;
+    }
+    .sayt img {
+        width: 50px;
+        margin-left: 115px;
+        margin-top: 410px;
+        position: absolute;
+    }
+}
+.sayt_center {
+    width: 100%;
+    height: 130px;
+    /* border: 2px solid black; */
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center_sayt{
+    width: 90%;
+    height: 120px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.saytcen {
+    width: 18%;
+    height: 90px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.saytcen a {
+    text-decoration: none;
+    color: black;
 }
