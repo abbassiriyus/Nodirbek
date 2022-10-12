@@ -58,10 +58,7 @@
 }
 
 .card2 li:hover {
-    color: #60B021;
-    border-bottom: 2px solid #60B021;
-    cursor: pointer;
-    margin-top: -2px;
+
 }
 
 .card2 ul li a {
@@ -74,6 +71,9 @@
 
 .card2 a:hover {
     color: #60B021;
+    border-bottom: 2px solid #60B021;
+    cursor: pointer;
+    margin-top: -2px;
 }
 
 .w:hover {
