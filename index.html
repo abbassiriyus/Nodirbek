@@ -1,168 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>navbar</title>
+    <style>
+        .navbar {
+            width: 100%;
+            height: 70px;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .text ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .text ul li {
+            margin-left: 15px;
+            margin-right: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .action select {
+            padding: 10px 20px;
+            border-radius: 30px;
+             }
+        .action{
+            display: flex;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="header">
-        <div class="card">
-            <img class="card_img" src="./img/logo.png" alt="">
+    <div class="navbar">
+        <div class="brand">
+            <img src="https://kun.uz/assets/cd6ab492/img/kun-uz-logo.svg" alt="">
         </div>
-        <div class="card2">
+        <div class="text">
             <ul>
-                <li><a href="#">Каталог</a> </li>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Правила</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li>uzbekistan</li>
+                <li>jamiyat</li>
+                <li>sport</li>
+                <li>iqtisod</li>
+                <li>audi</li>
+                <li>fan</li>
             </ul>
         </div>
-        <div class="card3">
-            <i class="fa fa-star-o w" aria-hidden="true"></i>
-            <i class="fa fa-bar-chart w" aria-hidden="true"></i>
-            <i class="fa fa-shopping-cart w" aria-hidden="true"></i>
-            <i class="fa fa-search w" aria-hidden="true"></i>
-            <i class="fa fa-user w" aria-hidden="true"></i>
-        </div>
-    </header>
-    <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-    <!-- <div class="sayt">
-        <img src="./img/bg.png" alt="">
-        <p class="sayt_p"><span class="sayt_img">АРЕНДА</span> ФОТО</p>
-        <p class="sayt_p2">И ВИДЕО</p>   
-        <p class="sayt_p3">ОБОРУДОВАНИЯ</p>
-    </div>
-    <div class="sayt_center">
-        <div class="saytcen">
-            <img src="./img/Group.png" alt="">
-            <p><a href="#">Самый большой 
-               <br> выбор техники</a></p>
-        </div>
-        <div class="saytcen">
-            <img src="./img/Group (1).png" alt="">
-            <p><a href="#"> Быстрое 
-               <br> оформление заказа</a></p>
-        </div>
-        <div class="saytcen">
-            <img src="./img/Group (2).png" alt="">
-            <p><a href="#">Можно забрать заказ
-               <br> в пункте выдачи</a> </p>
-        </div>
-        <div class="saytcen">
-            <img src="./img/002-product.png" alt="">
-            <p><a href="#">Доставка в любую
-               <br> точку Москвы</a> </p>
-        </div>
-        <div class="saytcen">
-            <img src="./img/003-commerce-and-shopping.png" alt="">
-            <p><a href="#"> Оплата картой
-               <br> и наличными</a></p>
+        <div class="action">
+            <img src="https://storage.kun.uz/source/banners/buttons/makon/nmded.png" alt="">
+            <select name="" id="">
+                <option value="">uzb</option>
+                <option value="">rus</option>
+                <option value="">eng</option>
+            </select>
         </div>
     </div>
-    <div class="popular_product">
-        <p><span class="popular_spam">ПОПУЛЯРНЫЕ</span> ТОВАРЫ</p>
-    </div>
-    <div class="products">
-        <div class="mini_product">
-            <div class="product">
-                <i class="fa fa-bar-chart v" aria-hidden="true"></i>
-                <i class="fa fa-star-o v2" aria-hidden="true"></i>
-                <div class="product_img">
-                    <img src="./img/orig (2).png" alt="">
-                </div>
-                <div class="product_name">
-                    <p style="font-size: 1.4vw;">PowerShot SX620 HS
-                       <br> <span class="product_span">Canon</span> </p>
-                </div>
-                <div class="product_s">
-                    <p class="product_p1">630 Р
-                       <br> <span class="product_spam">Будний</span> </p>
-                    <p class="product_p">750 Р
-                       <br> <span class="product_spam">Выходной</span> </p>
-                    <p class="product_p">4 380 Р
-                       <br> <span class="product_spam">Неделя</span> </p>
-                    <p class="product_p">12 250 Р
-                       <br> <span class="product_spam">Месяц</span> </p>
-                </div>
-                <div class="product_btn">
-                    <button class="product_btn1"><a href="#">Подробнее</a></button>
-                    <button class="product_btn2"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true "></i> В корзину</a>
-                    </button>
-                </div>
-            </div>
-            <div class="product">
-                <i class="fa fa-bar-chart v" aria-hidden="true"></i>
-                <i class="fa fa-star-o v2" aria-hidden="true"></i>
-                <div class="product_img">
-                    <img src="./img/orig (2).png" alt="">
-                </div>
-                <div class="product_name">
-                    <p style="font-size: 1.4vw;">PowerShot SX620 HS
-                       <br> <span class="product_span">Canon</span> </p>
-                </div>
-                <div class="product_s">
-                    <p class="product_p1">630 Р
-                       <br> <span class="product_spam">Будний</span> </p>
-                    <p class="product_p">750 Р
-                       <br> <span class="product_spam">Выходной</span> </p>
-                    <p class="product_p">4 380 Р
-                       <br> <span class="product_spam">Неделя</span> </p>
-                    <p class="product_p">12 250 Р
-                       <br> <span class="product_spam">Месяц</span> </p>
-                </div>
-                <div class="product_btn">
-                    <button class="product_btn1"><a href="#">Подробнее</a></button>
-                    <button class="product_btn2"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true "></i> В корзину</a>
-                    </button>
-                </div>
-            </div>
-            <div class="product">
-                <i class="fa fa-bar-chart v" aria-hidden="true"></i>
-                <i class="fa fa-star-o v2" aria-hidden="true"></i>
-                <div class="product_img">
-                    <img src="./img/orig (2).png" alt="">
-                </div>
-                <div class="product_name">
-                    <p style="font-size: 1.4vw;">PowerShot SX620 HS
-                       <br> <span class="product_span">Canon</span> </p>
-                </div>
-                <div class="product_s">
-                    <p class="product_p1">630 Р
-                       <br> <span class="product_spam">Будний</span> </p>
-                    <p class="product_p">750 Р
-                       <br> <span class="product_spam">Выходной</span> </p>
-                    <p class="product_p">4 380 Р
-                       <br> <span class="product_spam">Неделя</span> </p>
-                    <p class="product_p">12 250 Р
-                       <br> <span class="product_spam">Месяц</span> </p>
-                </div>
-                <div class="product_btn">
-                    <button class="product_btn1"><a href="#">Подробнее</a></button>
-                    <button class="product_btn2"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true "></i> В корзину</a>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
