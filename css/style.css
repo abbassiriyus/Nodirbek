@@ -923,3 +923,108 @@
     border-radius: 100px;
     border: none;
 }
+.project_btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.project_btn1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+}
+@media (max-width: 1100px){
+    .project_btn a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+    .project_btn1 a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+    .project_center1 p {
+        font-size: 1.5vw;
+        opacity: 0.5;
+    }
+    .project p {
+        font-size: 1.5vw;
+    }
+}
+@media (max-width: 750px){
+    .project_btn a{
+        color: black;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+    .project_btn1 a{
+        color: black;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+    .project_center p {
+        font-size: 3vw;
+    }
+    .project_center1 p {
+        font-size: 2vw;
+        opacity: 0.5;
+    }
+}@media (max-width: 500px){
+    .project_center2 {
+        width: 570px;
+        height: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .project_btn {
+        width: 260px;
+        height: 50px;
+        background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+        border-radius: 100px;
+        border: none;
+    }
+    .project_btn1 {
+        width: 260px;
+        height: 50px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+        border-radius: 100px;
+        margin-top: 20px;
+        border: none;
+    }
+    .project_btn a{
+        color: black;
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    .project_btn1 a{
+        color: black;
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    .project_center p {
+        font-size: 4vw;
+    }
+    .project_center1 p {
+        font-size: 3vw;
+        opacity: 0.5;
+    }
+}
+.summa_img{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img_sum{
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
