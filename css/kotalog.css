@@ -1141,6 +1141,11 @@
     padding-left: 10px;
 }
 
+#kotalog-id {
+    color: #60B021;
+    font-size: 1.3vw;
+}
+
 .kotalog-p:hover {
     border-top: 2px solid rgb(106, 255, 0);
     border-left: 2px solid rgb(106, 255, 0);
@@ -1265,6 +1270,15 @@
         position: relative;
         margin-left: 50px;
     }
+    .sayt {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(43, 43, 219);
+    }
 }
 
 @media(max-width: 750px) {
@@ -1350,6 +1364,14 @@
         display: none;
     }
 
+    #four-kotal {
+        display: none;
+    }
+
+    #five-kotal {
+        display: none;
+    }
+
     .kotalog-p {
         font-size: 3.5vw;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1394,4 +1416,149 @@
         top: 110px;
         display: block;
     }
+}
+
+.product-kotal {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mini-kotalog {
+    /* width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red; */
+    display: none;
+}
+
+.mini-kotalog.active {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.big-kotalog {
+    /* width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red; */
+    display: none;
+}
+
+.big-kotalog.active {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: none;
+}
+
+.all-kotalog {
+    /* width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    display: none;
+}
+
+.camera-kotalog {
+    /* width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    display: none;
+}
+
+.lighting-kotalog {
+    display: none;
+}
+
+.lens-kotalog {
+    display: none;
+}
+
+.veb-kotalog {
+    display: none;
+}
+
+.mikrafon-kotalog {
+    display: none;
+}
+.kotalog-p.active{
+    border-bottom: 2px solid rgb(106, 255, 0);
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.all-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.camera-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lighting-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lens-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.veb-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.mikrafon-kotalog.active {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
