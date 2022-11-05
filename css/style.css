@@ -3049,13 +3049,14 @@
     }
     .card_img{
         width: 150%;
+        margin-left: -10px;
     }
     .w{
         margin-left: -4px;
     }
     .nav-link{
-        margin-left: -10px;
-        font-size: 2.93vw;
+        margin-left: -25px;
+        font-size: 2.88vw;
         margin-top: 10px;
     }
     .nav-menu{
@@ -3187,6 +3188,7 @@
         background: none;
         border-radius: 5px;
         position: relative;
+        margin-left: 10px;
         cursor: pointer;
     }
     .nav-toggler-icon {
@@ -3266,7 +3268,7 @@
         border: none;
     }
     .fa-search::before{
-        margin-left: 3px;
+        margin-left: 2px;
     }
     .fa-user::before{
         margin-left: 3px;

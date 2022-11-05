@@ -527,9 +527,11 @@
         align-items: center;
         justify-content: space-between;
     }
-    .nav-list.active .sayt{
+
+    .nav-list.active .sayt {
         margin-top: 100px;
     }
+
     .nav-link {
         font-size: 1.7vw;
         margin-top: 6px;
@@ -1116,7 +1118,7 @@
 }
 
 .mini_conteir {
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     /* border: 2px solid red; */
@@ -1144,7 +1146,7 @@
     padding-left: 10px;
 }
 
-#kotalog-id {
+#about-id {
     color: #60B021;
 }
 
@@ -1212,7 +1214,13 @@
 }
 
 .mini-conteir-p {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgb(106, 255, 0);
+}
+
+.mini-conteir-p2 {
+    font-size: 1.5vw;
     font-weight: bold;
     color: rgb(106, 255, 0);
 }
@@ -1245,6 +1253,16 @@
     display: none;
 }
 
+.sayt-kotalog-p {
+    font-size: 1.2vw;
+    font-weight: 800;
+}
+
+.sayt-kotalog-span {
+    color: #6fff00;
+    font-weight: bold;
+}
+
 @media(max-width: 750px) {
     .kotalog-p {
         font-size: 2vw;
@@ -1272,6 +1290,7 @@
         position: relative;
         margin-left: 50px;
     }
+
     .sayt {
         width: 100%;
         padding-top: 10px;
@@ -1308,7 +1327,7 @@
         border-radius: 5px;
         cursor: pointer;
         position: relative;
-        margin-left: 50px;
+        margin-left: -20px;
     }
 
     .big_conteir.active {
@@ -1420,150 +1439,116 @@
     }
 }
 
-.product-kotal {
+.about {
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
+    background-color: rgb(237, 237, 237);
 }
 
-.mini-kotalog {
-    /* width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.about-center {
+    width: 95%;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border: 2px solid red; */
-    display: none;
+    justify-content: right;
 }
 
-.mini-kotalog.active {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
-}
-
-.big-kotalog {
-    /* width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 2px solid red; */
-    display: none;
-}
-
-.big-kotalog.active {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 30px;
-    border: none;
-}
-
-.all-kotalog {
-    /* width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; */
-    display: none;
-}
-
-.camera-kotalog {
-    /* width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; */
-    display: none;
-}
-
-.lighting-kotalog {
-    display: none;
-}
-
-.lens-kotalog {
-    display: none;
-}
-
-.veb-kotalog {
-    display: none;
-}
-
-.mikrafon-kotalog {
-    display: none;
-}
-.kotalog-p.active{
-    border-bottom: 2px solid rgb(106, 255, 0);
-    padding-right: 10px;
-    padding-bottom: 5px;
-}
-.all-kotalog.active {
-    width: 100%;
-    height: 10px;
+.about_img {
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.camera-kotalog.active {
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media(max-width: 991px) {
+    .about_img img {
+        width: 80%;
+    }
+
+    .about {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        background-color: rgb(237, 237, 237);
+    }
 }
 
-.lighting-kotalog.active {
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media (max-width: 900px) {
+
+    .mini_conteir {
+        width: 24%;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid red; */
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .sayt-kotalog-p {
+        font-size: 1.4vw;
+        font-weight: 800;
+    }
+
+    .sayt-kotalog-span {
+        color: #6fff00;
+        font-weight: bold;
+    }
 
 }
 
-.lens-kotalog.active {
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media(max-width:750px) {
+    .mini_conteir {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid red; */
+        justify-content: center;
+        cursor: pointer;
+    }
 
+    .mini-conteir-p2 {
+        font-size: 2vw;
+        font-weight: bold;
+        color: rgb(106, 255, 0);
+    }
 }
 
-.veb-kotalog.active {
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+@media(max-width: 450px) {
+    .mini_conteir {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid red; */
+        justify-content: center;
+        cursor: pointer;
+    }
+    .nav-toggleradd {
+        width: 45px;
+        height: 20px;
+        border: none;
+        background: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        margin-left: -10px;
+    }
+    .mini-conteir-p2 {
+        font-size: 2.3vw;
+        font-weight: bold;
+        color: rgb(106, 255, 0);
+        margin-left: -5px;
+    }
+    .sayt-kotalog-p {
+        font-size: 2vw;
+        font-weight: 800;
+    }
 }
 
-.mikrafon-kotalog.active {
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
 .footer {
     width: 100%;
     padding-top: 30px;
@@ -1774,89 +1759,95 @@
         font-size: 1.5vw;
     }
 }
-@media (max-width: 570px){
+
+@media (max-width: 570px) {
     .footer_card {
         display: none;
     }
-    #kompania_span_id{
+
+    #kompania_span_id {
         display: none;
     }
+
     .footer_card2 .kompania {
-    font-size: 3vw;
+        font-size: 3vw;
+    }
+
+    .footer_card2 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card3 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card3 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card4 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card4 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card5 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card5 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
 }
 
-.footer_card2 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card3 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card3 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card4 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card4 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card5 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card5 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-}
-@media (max-width: 400px){
+@media (max-width: 400px) {
     .footer_card {
         display: none;
     }
-    #kompania_span_id{
+
+    #kompania_span_id {
         display: none;
     }
+
     .footer_card2 .kompania {
-    font-size: 3vw;
-}
+        font-size: 3vw;
+    }
 
-.footer_card2 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card2 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card3 .kompania {
-    font-size: 3vw;
-}
+    .footer_card3 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card3 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card3 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card4 .kompania {
-    font-size: 3vw;
-}
+    .footer_card4 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card4 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card4 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card5 .kompania {
-    font-size: 3vw;
-}
+    .footer_card5 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card5 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card5 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 }
