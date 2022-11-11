@@ -1439,7 +1439,21 @@
     }
 }
 
+.footer.active {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .about {
+    display: none;
+}
+.about.active{
     width: 100%;
     display: flex;
     align-items: center;
@@ -1527,6 +1541,7 @@
         justify-content: center;
         cursor: pointer;
     }
+
     .nav-toggleradd {
         width: 45px;
         height: 20px;
@@ -1537,12 +1552,14 @@
         position: relative;
         margin-left: -10px;
     }
+
     .mini-conteir-p2 {
         font-size: 2.3vw;
         font-weight: bold;
         color: rgb(106, 255, 0);
         margin-left: -5px;
     }
+
     .sayt-kotalog-p {
         font-size: 2vw;
         font-weight: 800;
@@ -1550,14 +1567,7 @@
 }
 
 .footer {
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* border: 2px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: none;
 }
 
 .footer_card {

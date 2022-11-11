@@ -527,9 +527,11 @@
         align-items: center;
         justify-content: space-between;
     }
-    .nav-list.active .sayt{
+
+    .nav-list.active .sayt {
         margin-top: 100px;
     }
+
     .nav-link {
         font-size: 1.7vw;
         margin-top: 6px;
@@ -1226,6 +1228,17 @@
     justify-content: space-around;
 }
 
+.footer.active {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .nav-toggler1 {
     display: none;
 }
@@ -1272,6 +1285,7 @@
         position: relative;
         margin-left: 50px;
     }
+
     .sayt {
         width: 100%;
         padding-top: 10px;
@@ -1508,11 +1522,13 @@
 .mikrafon-kotalog {
     display: none;
 }
-.kotalog-p.active{
+
+.kotalog-p.active {
     border-bottom: 2px solid rgb(106, 255, 0);
     padding-right: 10px;
     padding-bottom: 5px;
 }
+
 .all-kotalog.active {
     width: 100%;
     height: 10px;
@@ -1564,15 +1580,17 @@
     justify-content: space-around;
 
 }
+
 .footer {
-    width: 100%;
+    /* width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     /* border: 2px solid black; */
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  */
+    display: none;
 }
 
 .footer_card {
@@ -1774,89 +1792,95 @@
         font-size: 1.5vw;
     }
 }
-@media (max-width: 570px){
+
+@media (max-width: 570px) {
     .footer_card {
         display: none;
     }
-    #kompania_span_id{
+
+    #kompania_span_id {
         display: none;
     }
+
     .footer_card2 .kompania {
-    font-size: 3vw;
+        font-size: 3vw;
+    }
+
+    .footer_card2 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card3 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card3 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card4 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card4 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
+
+    .footer_card5 .kompania {
+        font-size: 3vw;
+    }
+
+    .footer_card5 .kompania_span a {
+        font-size: 2.3vw;
+        opacity: 0.5;
+    }
 }
 
-.footer_card2 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card3 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card3 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card4 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card4 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-
-.footer_card5 .kompania {
-    font-size: 3vw;
-}
-
-.footer_card5 .kompania_span a {
-    font-size: 2.3vw;
-    opacity: 0.5;
-}
-}
-@media (max-width: 400px){
+@media (max-width: 400px) {
     .footer_card {
         display: none;
     }
-    #kompania_span_id{
+
+    #kompania_span_id {
         display: none;
     }
+
     .footer_card2 .kompania {
-    font-size: 3vw;
-}
+        font-size: 3vw;
+    }
 
-.footer_card2 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card2 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card3 .kompania {
-    font-size: 3vw;
-}
+    .footer_card3 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card3 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card3 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card4 .kompania {
-    font-size: 3vw;
-}
+    .footer_card4 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card4 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card4 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 
-.footer_card5 .kompania {
-    font-size: 3vw;
-}
+    .footer_card5 .kompania {
+        font-size: 3vw;
+    }
 
-.footer_card5 .kompania_span a {
-    font-size: 3.2;
-    opacity: 0.5;
-}
+    .footer_card5 .kompania_span a {
+        font-size: 3.2;
+        opacity: 0.5;
+    }
 }

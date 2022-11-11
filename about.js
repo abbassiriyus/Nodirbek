@@ -8,8 +8,12 @@ btn.addEventListener("click", () => {
 
 var kotal = document.querySelector('.mini_conteir')
 var addkotal = document.querySelector('.big_conteir')
+var footer = document.querySelector('.footer')
+var about = document.querySelector('.about')
 
 kotal.addEventListener('click', () => {
    kotal.classList.toggle('active')
    addkotal.classList.toggle('active')
+   footer.classList.toggle('active')
+   about.classList.toggle('active')
 })

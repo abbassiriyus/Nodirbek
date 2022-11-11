@@ -9,12 +9,14 @@ var kotal = document.querySelector('.mini_conteir')
 var addkotal = document.querySelector('.big_conteir')
 var mini = document.querySelector('.mini-kotalog')
 var big = document.querySelector('.big-kotalog')
+var footer = document.querySelector('.footer')
 
 kotal.addEventListener('click', () => {
    kotal.classList.toggle('active')
    addkotal.classList.toggle('active')
    mini.classList.toggle('active')
    big.classList.toggle('active')
+   footer.classList.toggle('active')
 })
 
 var all = document.querySelector('#first-kotal')
