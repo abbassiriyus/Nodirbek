@@ -7,23 +7,21 @@ btn.addEventListener("click", () => {
 })
 var kotal = document.querySelector('.mini_conteir')
 var addkotal = document.querySelector('.big_conteir')
-var mini = document.querySelector('.mini-kotalog')
-var big = document.querySelector('.big-kotalog')
 var footer = document.querySelector('.footer')
 
 kotal.addEventListener('click', () => {
    kotal.classList.toggle('active')
    addkotal.classList.toggle('active')
-   mini.classList.toggle('active')
-   big.classList.toggle('active')
    footer.classList.toggle('active')
 })
 
 var all = document.querySelector('#first-kotal')
 var allkotal = document.querySelector('.all-kotalog')
+var mini_all = document.querySelector('.mini-kotalog')
 
 all.addEventListener('click', () => {
    all.classList.toggle('active')
+   mini_all.classList.toggle('active')
    allkotal.classList.toggle('active')
 })
 var camera = document.querySelector('#second-kotal')
@@ -42,10 +40,12 @@ lighting.addEventListener('click', () => {
 })
 var lens = document.querySelector('#four-kotal')
 var lenskotal = document.querySelector('.lens-kotalog')
+var big = document.querySelector('.big-kotalog')
 
 lens.addEventListener('click', () => {
    lens.classList.toggle('active')
    lenskotal.classList.toggle('active')
+   big.classList.toggle('active')
 })
 var veb = document.querySelector('#five-kotal')
 var vebkotal = document.querySelector('.veb-kotalog')
