@@ -1098,7 +1098,6 @@
         margin-left: 1px;
     }
 }
-
 .sayt {
     width: 100%;
     padding-top: 15px;
@@ -1445,125 +1444,9 @@
         display: block;
     }
 }
-
-
-
-.about {
-    display: none;
+#news-id{
+    color: #60B021;
 }
-.about.active{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(237, 237, 237);
-}
-
-.about-center {
-    width: 95%;
-    height: 100%;
-    background-color: rgb(237, 237, 237);
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-
-.about_img {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-@media(max-width: 991px) {
-    .about_img img {
-        width: 80%;
-    }
-
-    .about {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: right;
-        background-color: rgb(237, 237, 237);
-    }
-}
-
-@media (max-width: 900px) {
-
-    .mini_conteir {
-        width: 24%;
-        display: flex;
-        align-items: center;
-        /* border: 2px solid red; */
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .sayt-kotalog-p {
-        font-size: 1.4vw;
-        font-weight: 800;
-    }
-
-    .sayt-kotalog-span {
-        color: #6fff00;
-        font-weight: bold;
-    }
-
-}
-
-@media(max-width:750px) {
-    .mini_conteir {
-        width: 30%;
-        display: flex;
-        align-items: center;
-        /* border: 2px solid red; */
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .mini-conteir-p2 {
-        font-size: 2vw;
-        font-weight: bold;
-        color: rgb(106, 255, 0);
-    }
-}
-
-@media(max-width: 450px) {
-    .mini_conteir {
-        width: 35%;
-        display: flex;
-        align-items: center;
-        /* border: 2px solid red; */
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .nav-toggleradd {
-        width: 45px;
-        height: 20px;
-        border: none;
-        background: none;
-        border-radius: 5px;
-        cursor: pointer;
-        position: relative;
-        margin-left: -10px;
-    }
-
-    .mini-conteir-p2 {
-        font-size: 2.3vw;
-        font-weight: bold;
-        color: rgb(106, 255, 0);
-        margin-left: -5px;
-    }
-
-    .sayt-kotalog-p {
-        font-size: 2vw;
-        font-weight: 800;
-    }
-}
-
 .footer {
     display: none;
 }

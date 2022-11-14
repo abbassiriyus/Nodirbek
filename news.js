@@ -7,13 +7,9 @@ btn.addEventListener("click", () => {
 })
 
 var kotal = document.querySelector('.mini_conteir')
-var sayt = document.querySelector('.sayt-second')
 var footer = document.querySelector('.footer')
-var about = document.querySelector('.about')
 
 kotal.addEventListener('click', () => {
    kotal.classList.toggle('active')
-   sayt.classList.toggle('active')
    footer.classList.toggle('active')
-   about.classList.toggle('active')
 })
