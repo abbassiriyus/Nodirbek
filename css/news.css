@@ -95,6 +95,7 @@
 
 .nav-item a {
     color: #000;
+    font-weight: bold;
 }
 
 .nav-icon:hover {
@@ -486,6 +487,7 @@
     -o-transform: translateX(-50%);
 }
 
+
 @media(max-width: 991px) {
     .conteyner {
         width: 100%;
@@ -495,7 +497,11 @@
         align-items: center;
         justify-content: space-between;
     }
-
+    .nav-item a {
+        color: #FFF;
+        font-weight: bold;
+    }
+    
     .nav-toggler {
         display: block;
         margin-left: 40px;
@@ -508,10 +514,10 @@
 
     .nav-list {
         width: 100vw;
-        height: 50px;
+        height: auto;
         position: fixed;
         left: -100px;
-        background: rgba(0, 0, 0, 0.424);
+        background: #000;
         display: none;
     }
 
@@ -524,8 +530,10 @@
 
     .nav-list.active .nav-menu {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -25px;
     }
 
     .nav-list.active .sayt {
@@ -592,28 +600,22 @@
         margin-top: 8px;
     }
 
-    .nav-list {
-        width: 100vw;
-        height: 50px;
-        position: fixed;
-        left: -100px;
-        background: rgba(0, 0, 0, 0.424);
-        display: none;
-    }
+
 
     .nav-list.active {
         position: absolute;
         left: 0;
-        top: 120px;
+        top: 50;
         display: block;
     }
 
     .nav-list.active .nav-menu {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -30px;
     }
-
     .nav-link {
         font-size: 2vw;
         margin-top: 7px;
@@ -655,17 +657,16 @@
 }
 
 @media(max-width: 500px) {
-    .nav-link {
-        font-size: 2.8vw;
+    .nav-item a{
+        font-size: 3vw;
     }
 
     .nav-logo {
         padding-left: 30px;
     }
-
     .conteyner {
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto; 
         height: 40px;
         display: flex;
         align-items: center;
@@ -710,7 +711,13 @@
         position: relative;
         cursor: pointer;
     }
-
+    .nav-list.active .nav-menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -15px;
+    }
     .nav-toggler-icon {
         width: 35px;
         height: 2px;
@@ -1307,7 +1314,15 @@
         background-color: rgb(43, 43, 219);
     }
 }
-
+@media(max-width: 991px){
+    .mini-conteir-p {
+        font-size: 3vw;
+        font-weight: bold;
+        color: rgb(106, 255, 0);
+        margin-left: 24px;
+    }
+    
+}
 @media(max-width: 750px) {
     .kotalog-p {
         font-size: 2.5vw;
@@ -1317,7 +1332,15 @@
         cursor: pointer;
         padding-left: 5px;
     }
-
+    .nav-toggler-iconadd {
+        width: 28px;
+        height: 2px;
+        background: rgb(183 183 183);
+        position: absolute;
+        top: 48%;
+        left: 112%;
+        transform: translate(-50%, 50%);
+    }
     .mini-conteir-p {
         font-size: 3.5vw;
         font-weight: bold;
@@ -1333,7 +1356,7 @@
         border-radius: 5px;
         cursor: pointer;
         position: relative;
-        margin-left: -20px;
+        margin-left: 24px;
     }
 
     .big_conteir.active {
@@ -1440,7 +1463,7 @@
     .nav-list.active {
         position: absolute;
         left: 0;
-        top: 110px;
+        top: 110;
         display: block;
     }
 }

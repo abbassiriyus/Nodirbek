@@ -95,6 +95,7 @@
 
 .nav-item a {
     color: #000;
+    font-weight: bold;
 }
 
 .nav-icon:hover {
@@ -505,13 +506,18 @@
     .nav-link {
         margin-top: 8px;
     }
+    .nav-item a {
+        color: #FFF;
+        font-weight: bold;
+    }
+    
 
     .nav-list {
         width: 100vw;
-        height: 50px;
+        height: auto;
         position: fixed;
         left: -100px;
-        background: rgba(0, 0, 0, 0.424);
+        background: #000;
         display: none;
     }
 
@@ -524,8 +530,10 @@
 
     .nav-list.active .nav-menu {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -25px;
     }
 
     .nav-list.active .sayt {
@@ -592,28 +600,22 @@
         margin-top: 8px;
     }
 
-    .nav-list {
-        width: 100vw;
-        height: 50px;
-        position: fixed;
-        left: -100px;
-        background: rgba(0, 0, 0, 0.424);
-        display: none;
-    }
+
 
     .nav-list.active {
         position: absolute;
         left: 0;
-        top: 120px;
+        top: 50;
         display: block;
     }
 
     .nav-list.active .nav-menu {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -30px;
     }
-
     .nav-link {
         font-size: 2vw;
         margin-top: 7px;
@@ -655,17 +657,16 @@
 }
 
 @media(max-width: 500px) {
-    .nav-link {
-        font-size: 2.8vw;
+    .nav-item a{
+        font-size: 3vw;
     }
 
     .nav-logo {
         padding-left: 30px;
     }
-
     .conteyner {
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto; 
         height: 40px;
         display: flex;
         align-items: center;
@@ -710,7 +711,13 @@
         position: relative;
         cursor: pointer;
     }
-
+    .nav-list.active .nav-menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -15px;
+    }
     .nav-toggler-icon {
         width: 35px;
         height: 2px;
@@ -785,6 +792,7 @@
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
     }
 }
+
 
 @media (max-width: 400px) {
     .sayt_p {
@@ -1441,7 +1449,7 @@
     .nav-list.active {
         position: absolute;
         left: 0;
-        top: 110px;
+        top: 110;
         display: block;
     }
 }
@@ -1482,11 +1490,7 @@
     }
 
     .about {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: right;
-        background-color: rgb(237, 237, 237);
+        display: none;
     }
 }
 

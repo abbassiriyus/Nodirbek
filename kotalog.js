@@ -26,16 +26,20 @@ all.addEventListener('click', () => {
 })
 var camera = document.querySelector('#second-kotal')
 var camerkotal = document.querySelector('.camera-kotalog')
+var mini_all = document.querySelector('.mini-kotalog')
 
 camera.addEventListener('click', () => {
    camera.classList.toggle('active')
+   mini_all.classList.toggle('active')
    camerkotal.classList.toggle('active')
 })
 var lighting = document.querySelector('#thirt-kotal')
 var lightkotal = document.querySelector('.lighting-kotalog')
+var mini_all = document.querySelector('.mini-kotalog')
 
 lighting.addEventListener('click', () => {
    lighting.classList.toggle('active')
+   mini_all.classList.toggle('active')
    lightkotal.classList.toggle('active')
 })
 var lens = document.querySelector('#four-kotal')
@@ -49,15 +53,19 @@ lens.addEventListener('click', () => {
 })
 var veb = document.querySelector('#five-kotal')
 var vebkotal = document.querySelector('.veb-kotalog')
+var big = document.querySelector('.big-kotalog')
 
 veb.addEventListener('click', () => {
    veb.classList.toggle('active')
    vebkotal.classList.toggle('active')
+   big.classList.toggle('active')
 })
 var mikrafon = document.querySelector('#six-kotal')
 var mikrokotal = document.querySelector('.mikrafon-kotalog')
+var big = document.querySelector('.big-kotalog')
 
 mikrafon.addEventListener('click', () => {
    mikrafon.classList.toggle('active')
+   big.classList.toggle('active')
    mikrokotal.classList.toggle('active')
 })
