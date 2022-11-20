@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-
+    user-select: none;
 }
 
 .header {
@@ -220,6 +220,19 @@
         width: 200px;
         transition: .3s;
     }
+    .w::before {
+        margin-left: 5px;
+    }
+
+    .nav-menu {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+    }
+
 }
 
 @media(max-width: 1450px) {
