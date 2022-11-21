@@ -2122,3 +2122,36 @@
     border-radius: 50px;
 }
 }
+@media(max-width: 350px) {
+    .nav-item a {
+        color: #FFF;
+        font-weight: bold;
+        margin-left: -5px;
+        font-size: 4vw;
+    }
+
+
+    .card_img {
+        display: none;
+    }
+
+    .card_img2 {
+        width: 70%;
+        display: block;
+        margin-top: 5px;
+    }
+
+   
+    .w::before {
+        font-size: 5.5vw;
+        margin-left: -1px;
+    }
+
+    .nav-icon2 {
+        width: 100%;
+        height: 43px;
+        border-left: 1px solid rgba(0, 0, 0, 0.242);
+        margin-top: -1px;
+        margin-left: -10px;
+    }
+}
