@@ -3837,7 +3837,7 @@
     }
     .fa-user::before {
         content: "\f007";
-        margin-left: 2px;
+        margin-left: 2.5px;
     }
 
     .nav-icon2 {

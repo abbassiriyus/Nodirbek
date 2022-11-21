@@ -1389,15 +1389,16 @@
         padding-top: 20px;
     }
 }
-@media(max-width: 350px) {
+.card_img2{
+    display: none;
+}
+@media(max-width: 400px) {
     .nav-item a {
         color: #FFF;
         font-weight: bold;
         margin-left: -5px;
         font-size: 4vw;
     }
-
-
     .card_img {
         display: none;
     }
@@ -1408,10 +1409,17 @@
         margin-top: 5px;
     }
 
-   
     .w::before {
         font-size: 5.5vw;
         margin-left: -1px;
+    }
+    .fa-search::before {
+        content: "\f002";
+        margin-left: 2px;
+    }
+    .fa-user::before {
+        content: "\f007";
+        margin-left: 2.5px;
     }
 
     .nav-icon2 {
@@ -1420,10 +1428,5 @@
         border-left: 1px solid rgba(0, 0, 0, 0.242);
         margin-top: -1px;
         margin-left: -10px;
-    }
-    .footer-p a {
-        text-decoration: none;
-        font-size: 4vw;
-        color: #000;
     }
 }

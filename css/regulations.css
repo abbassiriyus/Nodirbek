@@ -1780,15 +1780,16 @@
         opacity: 0.5;
     }
 }
-@media(max-width: 350px) {
+.card_img2{
+    display: none;
+}
+@media(max-width: 400px) {
     .nav-item a {
         color: #FFF;
         font-weight: bold;
         margin-left: -5px;
         font-size: 4vw;
     }
-
-
     .card_img {
         display: none;
     }
@@ -1799,10 +1800,17 @@
         margin-top: 5px;
     }
 
-   
     .w::before {
         font-size: 5.5vw;
         margin-left: -1px;
+    }
+    .fa-search::before {
+        content: "\f002";
+        margin-left: 2px;
+    }
+    .fa-user::before {
+        content: "\f007";
+        margin-left: 2.5px;
     }
 
     .nav-icon2 {
